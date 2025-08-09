@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="icon" type="image/png" href="images/papergrid-favicon.webp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>papergrid responsive-clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!--link for the css of bootstrap-->
+</head>
+
+<body>
+
+    <!----- first navbar ------>
+
+    <nav class="navbar text-light p-0 navbar_1">
+        <div class="container justify-content-center py-2">
+            <p class="m-0 me-2 fw-light">FREE SHIPPING ON ALL ORDERS!</p> <i class="bi bi-arrow-right"></i>
+        </div>
+    </nav>
+
+    <!------ second navbar ------>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 px-lg-5 sticky-top">
+        <div class="container-lg  navbar-2-container ">
+
+            <!--toggle button (only appear when screen width less than lg)-->
+
+            <button class="navbar-toggler " data-bs-toggle="offcanvas" data-bs-target="#icons">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <!-- navbar loga and links of the page -->
+
+            <div class="d-flex">
+
+                <div>
+                    <img src="images/paper-logo.avif" alt="" class="navbar-brand me-4" id="logo">
+                </div>
+
+                <div class="d-lg-block d-none">
+                    <ul class="navbar-nav left-nav-ul ">
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-light">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-light fs-6">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-light fs-6">Calatogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-light fs-6">Track</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!------ offcanvcas starts ------->
+
+                <div class="offcanvas offcanvas-start" id="icons">
+
+                    <div class="offcanvas-header   px-0 h-100 pb-0">
+
+                        <div class="d-flex flex-column justify-content-between h-100 w-100">
+
+                            <!-- close btn for offcanvas -->
+
+                            <button class="btn-close btn-close-white mt-5 ms-4" data-bs-dismiss="offcanvas"></button>
+
+                            <!-- upper offcanvas -->
+
+                            <ul class="navbar-nav offcanv-ul pb-5">
+                                <li class="nav-item ps-4">
+                                    <a href="" class="nav-link text-light fs-5">Home</a>
+                                </li>
+                                <li class="nav-item ps-4">
+                                    <a href="" class="nav-link text-light fs-5">About US</a>
+                                </li>
+                                <li class="nav-item ps-4">
+                                    <a href="" class="nav-link text-light fs-5">Calatogue</a>
+                                </li>
+                                <li class="nav-item ps-4">
+                                    <a href="" class="nav-link text-light fs-5">Track</a>
+                                </li>
+                            </ul>
+
+                            <!-- bottom offcanvas -->
+
+                            <div class="ps-4 py-4 offcanv-bottom">
+                                <div>
+                                    <div class="pb-4">
+                                        <a href="" class="nav-link">
+                                            <i class="bi bi-person text-light fs-3"></i>
+                                            <span class="text-light ps-2">Log in</span>
+                                        </a>
+                                    </div>
+
+                                    <a href="">
+                                        <i class="bi bi-instagram text-light fs-5 d-block"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- icons on the left side of nav bar -->
+
+            <div class="icons-right">
+                <a class="bi bi-person text-light fs-3 person-right" href=""></a>
+                <a class="bi bi-bag text-light fs-3 ms-4" href=""></a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!------ image row and col starts---- -->
+
+    <div class="container-md img-container mt-5">
+
+        <div class="row row-col-lg-3 row-col-2 g-2 gx-md-5"> <!--setting the row and col for different beakpoint-->
+
+            <div class="col-lg-4 col-6">
+                <img src=" images/paper-1.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src=" images/paper-2.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src="images/paper-3.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src=" images/paper-4.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src=" images/paper-5.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src="images/paper-6.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src=" images/paper-7.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src=" images/paper-8.webp">
+            </div>
+
+            <div class="col-lg-4 col-6">
+                <img src="images/paper-9.webp">
+            </div>
+
+            <!-- book from founder row  -->
+
+            <div class="row row-col-md-2 py-5">
+                <div class="col-md-4 col-12">
+                    <img src="images/paper-10.webp">
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="p-5 founder-text">
+                        <h1 class="fs-3 fw-normal text-black">A Note From Our Founder</h1>
+                        <h1 class="fs-4 fw-light py-4">Rohil Sethi, Founder & MD of Papergrid Industries</h1>
+                        <button class="btn btn-dark p-3 px-5 about-btn">About Us</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!----- footer--- -->
+    <footer>
+
+        <!-- upper footer -->
+
+        <div class="d-flex justify-content-center upper-footer"> <!-- d-flex so that justify can be applies-->
+
+            <div class="d-flex flex-column">
+                <h1 class="text-light fw-normal fs-5 mt-5 my-2 mx-auto">Contact Us</h1>
+                <a class=" fs-5 fw-light my-2 mx-auto" href="">+91-9830933754</a>
+                <a class=" fs-5 fw-light my-2 mx-auto" href="">+91-8041644555</a>
+                <a class=" fs-5 fw-light my-2 mx-auto" href="">ecommerce@papergrid.in</a>
+                <a class="bi bi-instagram fs-5 my-5 mx-auto" href=""></a>
+            </div>
+
+        </div>
+
+        <!-- lower footer -->
+
+        <div class=" lower-footer py-5 ">
+
+            <div class="d-block mx-5">
+                <h1 class="me-1 d-inline">© 2025,</h1>
+                <a class="nav-link me-1 d-inline" href="">Papergrid Industries</a>
+                <a class="nav-link fe-3 d-inline" href="">Powered by Shopify</a>
+
+                <a class="nav-link d-inline" href="">Refund policy</a>
+                <a class="nav-link d-inline" href="">Terms of service</a>
+                <a class="nav-link d-inline" href="">Terms of service</a>
+                <a class="nav-link d-inline" href="">Shipping policy</a>
+                <a class="nav-link d-inline" href="">Contact information</a>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <!--link for JS of bootstrap -->
+
+</body>
+
+</html>

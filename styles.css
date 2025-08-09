@@ -1,0 +1,156 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+/* to remove the border of the toggle and close button */
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn-close,
+.nbtn-close:focus,
+.btn-close:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/*-------------------- first navbar------------------ */
+
+.navbar_1 {
+    cursor: pointer;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar_1:hover{
+    background-color: rgba(18, 18, 18, 0.962);
+    border-color: rgba(18, 18, 18, 0.962);
+}
+
+/* ---------------second navbar----------------- */
+
+.navbar {
+    background-color: rgb(18, 18, 18);
+}
+
+#logo {
+    width: 130px;
+}
+
+.left-nav-ul li:first-child > a{
+    text-decoration: underline !important;
+        text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+}
+
+.left-nav-ul a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+/* ---------offcanvas----------------- */
+
+.offcanvas-header{
+    background-color: rgb(18, 18, 18);
+}
+
+.offcanv-ul > li:first-child {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.offcanv-ul > li:hover {
+
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.offcanv-ul > li >a:hover {
+    text-decoration: none;
+}
+
+.offcanv-bottom {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+/*---- when screen width below 768px (md) then fo the actions----- */
+
+@media (max-width: 768px) {
+    .person-right {
+        display: none;
+    }
+
+    .founder-text {
+        text-align: center;
+    }
+
+}
+
+/* ----------------images --------------- */
+
+.img-container img {
+    width: 100% !important;
+}
+
+/* -------------------------------------- */
+
+.about-btn {
+    border-radius: 0px !important;
+    background-color: black !important;
+}
+
+.about-btn:hover {
+    border: 2px solid black;
+}
+
+/*--------------- upper footer--------------- */
+
+.upper-footer {
+    background-color: rgb(18, 18, 18);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.044);
+}
+
+.upper-footer a {
+    color: rgba(255, 255, 255, 0.7);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 0.5px;
+}
+
+
+.upper-footer a:hover {
+    color: white;
+}
+
+/*--------------- lower footer-------------- */
+
+.lower-footer {
+    background-color: rgb(18, 18, 18);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12.1px;
+}
+
+.lower-footer h1 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12.1px;
+}
+
+.lower-footer ul {
+    list-style-type: none;
+}
+
+
+.lower-footer>div :nth-child(3)~a::before {
+    content: "-";
+    padding: 10px;
+}
+
+.lower-footer>div {
+    text-align: justify;
+    text-align-last: center;
+}
